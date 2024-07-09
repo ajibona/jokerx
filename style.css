@@ -257,15 +257,14 @@ header .inner-header p{
 }
 
 .service_info{
-  font-size: 1.6rem;
+  font-size: 2.3rem;
   margin-bottom: 100px;
-  width: 600px;
+  width: 800px;
   line-height: 1.7;
 }
 
 .service_btn{
   padding: 25px 50px;
-  font-weight: 200;
   font-size: 1rem;
   border: none;
   color: #fff;
