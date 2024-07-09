@@ -119,12 +119,12 @@ header .inner-header p{
 
 .hero_info{
   margin-top: 50px;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   text-align: center;
   line-height: 1.7;
   color: #ffffffb6;
-  margin-bottom: 140px;
-  width: 800px;
+  margin-bottom: 100px;
+;
 }
 
 .background_hero_section{
@@ -200,6 +200,7 @@ header .inner-header p{
   display: grid;
   place-items: center;
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .inner_service_section{
@@ -249,15 +250,17 @@ header .inner-header p{
 }
 
 .service_header{
+  font-size: 2rem;
   margin-top: 200px;
   font-weight: 500;
   margin-bottom: 30px;
 }
 
 .service_info{
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 100px;
+  width: 600px;
   line-height: 1.7;
-  margin-bottom: 50px;
 }
 
 .service_btn{
