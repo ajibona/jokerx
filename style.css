@@ -12,10 +12,10 @@ button{
 
 body{
   font-family: "Poppins", sans-serif;
-  height: 100vh;
 }
+
 header{
-  background-color: rgb(100, 108, 226);
+  background-color:   rgb(92, 99, 201);
   padding: 40px;
   position: fixed;
   width: 100%;
@@ -65,7 +65,7 @@ header .inner-header p{
   border: 1px solid #fff;
 }
 */
-button{
+.header_getstarted_btn{
   padding: 30px 80px;
   font-size: 1.8rem;
   border: none;
@@ -73,20 +73,20 @@ button{
   background-color: #fff;
 }
 
-.menu{
+.menu_header{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 0.8rem;
 }
-.menu-box{
+.menu_box_header{
   width: 60px;
   height: 6px;
   background-color: #fff;
 }
 
-.toogle-menu{
+.toogle_menu_header{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,4 +95,178 @@ button{
 
 .logo-images{
   width: 22rem;
+}
+
+.hero_section{
+  margin-top: 300px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 220px;
+}
+
+.inner_section{
+  text-align: center;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.hero_heading{
+  font-size: 6.5rem;
+  text-align: center;
+  width: 680px;
+  color: #fff;
+}
+
+.hero_info{
+  margin-top: 50px;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.7;
+  color: #ffffffb6;
+  margin-bottom: 140px;
+  width: 800px;
+}
+
+.background_hero_section{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:rgb(100, 108, 226);
+  width: 100%;
+  height: 1300px;
+  z-index: -1;
+}
+
+.hero_box1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ffffff81;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+}
+
+.hero_box2{
+  position: absolute;
+  top: 67rem;
+  right: 0;
+  border: 1px solid #ffffff81;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+}
+
+.hero_cirle1{
+  position: absolute;
+  top: 40rem;
+  left: 5rem;
+  border: 2px solid #ffffff81;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.hero_cirle2{
+  position: absolute;
+  top: 20rem;
+  right: 5rem;
+  border: 2px solid #ffffff81;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.hero_button_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn_ios, .btn_android{
+  padding: 35px 45px;
+  font-size: 1.9rem;
+  border: none;
+  color: #fff;
+  border-radius: 60px;
+  background-color: #b9b9b963;
+  border: 1px solid #a5868671;
+}
+
+.service_section{
+  display: grid;
+  place-items: center;
+  margin-bottom: 100px;
+}
+
+.inner_service_section{
+  width: 90%;
+
+}
+
+.service_header_section{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.service_box_details{
+  padding: 50px;
+  background-color: #b9b9b91f;
+  border-radius: 30px;
+}
+
+.transaction_opay{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+
+.transaction_name_service{
+  font-size: 1.6rem;
+}
+
+.transaction_name{
+  font-size: 1.4rem;
+  color: rgb(88, 124, 223);
+}
+
+.transaction_amount{
+  font-size: 1.6rem;
+}
+
+.transaction_position{
+  font-size: 1.5rem;
+  color: greenyellow;
+}
+
+.service_header{
+  margin-top: 200px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.service_info{
+  font-size: 0.8rem;
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+
+.service_btn{
+  padding: 25px 50px;
+  font-weight: 200;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  border-radius: 60px;
+  background-color: rgb(92, 99, 201);
+  border: none;
 }
