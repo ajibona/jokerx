@@ -169,18 +169,15 @@ header .inner-header p{
   height: 70px;
   border-radius: 50%;
   z-index: -1;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero_circle1_background{
-  background: url(/images/nigeria.4590abb866356923.svg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.hero_cirle1_images{
+  border-radius: 50%;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
 }
 
 .hero_cirle2{
@@ -192,16 +189,15 @@ header .inner-header p{
   height: 70px;
   border-radius: 50%;
   z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero_circle2_background{
-  background: url(/images/ghana.2dc93e39925adc6f.svg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.hero_cirle2_images{
+  border-radius: 50%;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
 }
 
 .hero_button_section{
