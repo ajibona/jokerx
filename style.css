@@ -70,6 +70,7 @@ header .inner-header p{
   font-size: 1.8rem;
   border: none;
   border-radius: 60px;
+  color: rgb(92, 99, 201);
   background-color: #fff;
 }
 
@@ -247,8 +248,15 @@ header .inner-header p{
   padding: 50px;
   background-color: #b9b9b91f;
   border-radius: 30px;
+  margin-bottom: 60px;
 }
 
+.service_reward_box_details{
+  padding: 0px 50px 50px 50px;
+  background-color: #b9b9b91f;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
 .transaction_opay{
   display: flex;
   align-items: center;
@@ -309,6 +317,10 @@ header .inner-header p{
   width: 850px;
 }
 
+.icon_payment_tag{
+  width: 800px;
+}
+
 .payment_box{
   display: flex;
   align-items: center;
@@ -326,4 +338,53 @@ header .inner-header p{
   height: 110px;
   width: 100%;
   background-color: rgb(85, 91, 177);
+}
+
+.service_introduce_section{
+  display: grid;
+  place-items: center ;
+}
+.inner_service_introduced_section, .inner_service_introduce_box{
+  display: grid;
+  place-items: center;
+}
+.service_introduce_header{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.service_introduce_box{
+  margin-bottom: 60px;
+}
+.service_introduce_info{
+  text-align: center;
+  font-size: 1.7rem;
+  width: 850px;
+  margin-bottom: 70px;
+}
+
+.service_introduce_icon_guide{
+  border: 1px solid #a5868671;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #b5b1eb59;
+  margin-bottom: 20px;
+}
+.service_introduce_icon{
+  width: 100px;
+}
+
+.service_introduce_box_header{
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.service_introduce_box_info{
+  text-align: center;
+  font-size: 1.4rem;
+  width: 800px;
 }
