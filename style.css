@@ -384,3 +384,114 @@ header .inner-header p{
   font-size: 1.4rem;
   width: 800px;
 }
+
+.customer_review_section{
+  display: grid;
+  place-items: center;
+  margin-top: 150px;
+  background-color: #b9b9b91f;
+  padding: 50px;
+}
+
+.inner_customer_review_section{
+  display: grid;
+  place-items: center;
+}
+.review-star{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  gap: 1rem;
+}
+
+.rating_number{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.review_heading{
+  font-size: 3rem;
+  text-align: center;
+  width: 600px;
+}
+
+.review_generated_box{
+  background-color: #fff;
+  padding: 40px;
+  margin-top: 30px;
+  width: 800px;
+}
+
+.review_generated_box_info{
+  font-size: 1.7rem;
+
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 1rem;
+}
+.profile_icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid  #5c63c9;
+}
+
+.profile_name{
+  font-size: 1.2rem;
+}
+
+.profile_location{
+  font-size: 1.2rem;
+  color: #b9b9b9e1;
+}
+
+.call_action_section{
+  display: grid;
+  place-items: center;
+  padding: 50px 50px 0 50px;
+  background-color:rgb(100, 108, 226);
+  margin-bottom: 100px;
+}
+.inner_call_action_section{
+  display: grid;
+  place-items: center;
+}
+.call_action_header{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  width: 600px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.call_action_info{
+  text-align: center;
+  font-size: 1.7rem;
+  width: 500px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+.call_action_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 35px 45px;
+  font-size: 1.9rem;
+  border: none;
+  color: #fff;
+  border-radius: 60px;
+  background-color: #b9b9b963;
+  border: 1px solid #a5868671;
+  margin-bottom: 50px;
+}
