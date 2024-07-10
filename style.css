@@ -368,7 +368,7 @@ header .inner-header p{
 
 .service_introduce_icon_guide{
   border: 1px solid #a5868671;
-  padding: 10px 20px;
+  padding: 15px 25px;
   border-radius: 30px;
   background-color: #b5b1eb59;
   margin-bottom: 20px;
@@ -378,7 +378,7 @@ header .inner-header p{
 }
 
 .service_introduce_box_header{
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 20px;
 }
