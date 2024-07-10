@@ -101,7 +101,7 @@ header .inner-header p{
   margin-top: 300px;
   display: grid;
   place-items: center;
-  margin-bottom: 220px;
+  margin-bottom: 150px;
 }
 
 .inner_section{
@@ -124,6 +124,7 @@ header .inner-header p{
   line-height: 1.7;
   color: #ffffffb6;
   margin-bottom: 100px;
+  width: 870px;
 ;
 }
 
@@ -133,7 +134,7 @@ header .inner-header p{
   left: 0;
   background-color:rgb(100, 108, 226);
   width: 100%;
-  height: 1300px;
+  height: 1350px;
   z-index: -1;
 }
 
@@ -145,6 +146,7 @@ header .inner-header p{
   width: 300px;
   height: 300px;
   z-index: -1;
+  transform: rotate(45deg);
 }
 
 .hero_box2{
@@ -161,22 +163,44 @@ header .inner-header p{
   position: absolute;
   top: 40rem;
   left: 5rem;
-  border: 2px solid #ffffff81;
+  border: 5px solid #ffffff81;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   z-index: -1;
+  display: grid;
+  place-items: center;
+}
+
+.hero_circle1_background{
+  background: url(/images/nigeria.4590abb866356923.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 .hero_cirle2{
   position: absolute;
   top: 20rem;
   right: 5rem;
-  border: 2px solid #ffffff81;
+  border: 5px solid #ffffff81;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   z-index: -1;
+}
+
+.hero_circle2_background{
+  background: url(/images/ghana.2dc93e39925adc6f.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 .hero_button_section{
@@ -187,6 +211,10 @@ header .inner-header p{
 }
 
 .btn_ios, .btn_android{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   padding: 35px 45px;
   font-size: 1.9rem;
   border: none;
@@ -200,7 +228,7 @@ header .inner-header p{
   display: grid;
   place-items: center;
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .inner_service_section{
@@ -210,7 +238,7 @@ header .inner-header p{
 
 .service_header_section{
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 50px;
 }
@@ -251,7 +279,7 @@ header .inner-header p{
 
 .service_header{
   font-size: 2.5rem;
-  margin-top: 200px;
+  margin-top: 100px;
   font-weight: 500;
   margin-bottom: 30px;
 }
@@ -265,10 +293,37 @@ header .inner-header p{
 
 .service_btn{
   padding: 25px 50px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: none;
   color: #fff;
   border-radius: 60px;
   background-color: rgb(92, 99, 201);
   border: none;
+}
+
+.icon-android{
+  width: 30px;
+}
+
+.icon_payment{
+  width: 850px;
+}
+
+.payment_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.7rem;
+  margin-top: 70px;
+  padding: 20px 40px;
+  height: 110px;
+  width: 100%;
+  background-color: rgb(85, 91, 177);
 }
