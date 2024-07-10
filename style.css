@@ -424,7 +424,7 @@ header .inner-header p{
 }
 
 .review_generated_box_info{
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 
 }
 
@@ -435,46 +435,51 @@ header .inner-header p{
   gap: 1rem;
 }
 .profile_icon{
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   border: 2px solid  #5c63c9;
 }
 
 .profile_name{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .profile_location{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #b9b9b9e1;
 }
 
 .call_action_section{
   display: grid;
   place-items: center;
-  padding: 50px 50px 0 50px;
-  background-color:rgb(100, 108, 226);
+  padding: 50px 10px 0 10px;
   margin-bottom: 100px;
+  
 }
 .inner_call_action_section{
   display: grid;
   place-items: center;
+  background-color:rgb(100, 108, 226);
+  border-radius: 50px;
+  width: 90%;
+  padding-top: 100px;
+  position: relative;
 }
 .call_action_header{
   text-align: center;
-  font-size: 3rem;
-  font-weight: 400;
-  width: 600px;
-  margin-bottom: 25px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  width: 700px;
+  margin-bottom: 35px;
   color: #fff;
 }
 
 .call_action_info{
   text-align: center;
-  font-size: 1.7rem;
-  width: 500px;
-  margin-bottom: 35px;
+  font-size: 2.2rem;
+  width: 700px;
+  margin-bottom: 40px;
   color: #fff;
 }
 
@@ -493,5 +498,47 @@ a{
   border-radius: 60px;
   background-color: #b9b9b963;
   border: 1px solid #a5868671;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.dashboard_images{
+  width: 700px;
+}
+
+.call_action_box1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ffffff28;
+  z-index: 1;
+}
+
+footer{
+  padding: 50px 50px;
+}
+
+.white-logo-footer{
+  width: 200px;
+}
+.inner-footer{
+  border-top: 1px solid #b9b9b963;
+  padding-top: 60px;
+}
+
+.Company, .Resources{
+  margin-bottom: 30px;
+}
+.Company p, .Resources p{
+  font-size: 1.3rem;
+  color: #b9b9b9ab;
+  margin-bottom: 20px;
+}
+
+.Company ul li, .Resources ul li{
+  list-style: none;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
