@@ -15,7 +15,7 @@ body{
 }
 
 header{
-  background-color:   rgb(92, 99, 201);
+  background-color:   #5c63c9;
   padding: 40px;
   position: fixed;
   width: 100%;
@@ -95,7 +95,7 @@ header .inner-header p{
 }
 
 .logo-images{
-  width: 22rem;
+  width: 13rem;
 }
 
 .hero_section{
