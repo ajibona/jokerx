@@ -403,7 +403,7 @@ header{
   width: 800px;
 }
 
-.customer_review_section{
+#customer_review_section{
   display: grid;
   place-items: center;
   margin-top: 150px;
